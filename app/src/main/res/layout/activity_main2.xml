@@ -6,4 +6,89 @@
     android:layout_height="match_parent"
     tools:context="com.example.isa.calculadora.Main2Activity">
 
+    <TextView
+        android:id="@+id/value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="191dp">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/igualdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="105dp" />
 </android.support.constraint.ConstraintLayout>
